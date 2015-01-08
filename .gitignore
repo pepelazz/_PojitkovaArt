@@ -1,0 +1,6 @@
+
+.idea/
+.sass-cache/
+build/
+node_modules/
+_PojitkovaArt.iml
