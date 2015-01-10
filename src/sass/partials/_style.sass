@@ -12,8 +12,56 @@ html, body
   height: 100%
   width: 100%
   margin: 0px
-  padding: 20px
+  padding: 0px
   background-color: $color-bg
   font-size: $base-font-size
   line-height: $base-line-height
+
+$zindex-interior: 10
+
+.img-interior
+  position: fixed
+  top: 0
+  left: 0
+  z-index: $zindex-interior
+
+.nav
+  position: absolute
+  top: 1rem
+  left: 0
+  padding-left: 1rem
+  z-index: $zindex-interior+10
+  font-family: 'Lobster', cursive
+  ul
+    list-style: none
+    padding: 0
+    li
+      float: left
+      padding-left: ms(1)
+      font-size: ms(2)
+      line-height: 1.2
+      color: #1A2C36
+
+.img-painter
+  float: right
+
+.about-project
+  clear: both
+  padding: ms(2)
+  font-size: ms(0)
+  color: white
+  background: #8B9EB7
+
+.gallery
+  padding: 0 1rem
+  .gallery-grid
+    position: relative
+    list-style: none
+    padding: 0
+    li
+      position: absolute
+      .wrapper
+        img
+          width: 100%
+          cursor: pointer
 

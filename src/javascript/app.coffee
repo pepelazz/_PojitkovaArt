@@ -1,1 +1,3 @@
-require './temp/test'
+require './util'
+require './pictures-grid'
+require './gallery'

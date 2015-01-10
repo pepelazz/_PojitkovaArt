@@ -1,8 +1,8 @@
-//@import "compass/css3/transition"
+@import "compass/css3/transition"
 
-//@import "susy"
-//@import "breakpoint"
-
+@import "susy"
+@import "breakpoint"
+@import "modular-scale"
 
 //--- Variables
 //media
@@ -13,7 +13,7 @@ $break-1150:    1150px
 $break-large:  1240px
 
 //colors
-$color-bg: #24D7E9
+$color-bg: #B1D7EB
 $color-sea: #0FAAF5
 $color-sand: #D6C8AD
 $color-events-title: darken($color-bg, 20%)
@@ -23,8 +23,11 @@ $color-events-title: darken($color-bg, 20%)
 
 
 //font-sizes
-$base-font-size: 0.9375rem
-$base-line-height: 1.375rem
+$ms-base: 1rem
+$ms-ratio: $golden
+
+$base-font-size: ms(0)
+$base-line-height: 1.2
 
 $wide-border: 5%
 

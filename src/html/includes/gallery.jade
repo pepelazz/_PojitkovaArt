@@ -1,0 +1,7 @@
+ul.gallery-grid
+    each val, index in pictures
+        li
+            .wrapper
+                img(src='./images/pictures/#{val.fileName}-small.jpg' ng-click='openPic(#{index})')
+
+

@@ -36,7 +36,7 @@ module.exports =
       css: './build'
       sourceComments: "map"
       imagePath: "/images" # Used by the image-url helper
-#      require: ['susy', 'breakpoint', 'modular-scale']
+      require: ['susy', 'breakpoint', 'modular-scale']
 
   images:
     src: "#{src}/images/**"
@@ -63,7 +63,7 @@ module.exports =
         outputName: "app.js"
       }
       {
-        entries: src + "/javascript/test.coffee"
+        entries: src + "/javascript/util.coffee"
         dest: dest
         outputName: "test.js"
       }

@@ -1,0 +1,38 @@
+{
+    "pictures":[
+        {
+            "fileName": "pic01",
+            "size": [1000, 751]
+        },
+        {
+            "fileName": "pic02",
+            "size": [1000, 756]
+        },
+        {
+            "fileName": "pic03",
+            "size": [1000, 698]
+        },
+        {
+            "fileName": "pic04",
+            "size": [1000, 692]
+        },
+        {
+            "fileName": "pic05",
+            "size": [1000, 1000]
+        },
+        {
+            "fileName": "pic06",
+            "size": [1000, 1000]
+        },
+        {
+            "fileName": "pic07",
+            "size": [1000, 1181]
+        },
+        {
+            "fileName": "pic08",
+            "size": [647, 983]
+        }
+
+    ]
+}
+
